@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 
-public class Day1 {
+public class MainApp {
     public static void main(String[] args) {
         List<Integer> sums = sumItUp(Path.of("./src/main/java/org/example/day1/input"));
         sums.sort((x, y) -> y - x);
